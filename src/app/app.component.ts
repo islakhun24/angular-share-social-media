@@ -33,7 +33,7 @@ export class AppComponent {
   // <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
       {
         property: 'og:url',
-        content: 'http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html'
+        content: 'https://angular-share-social-media.vercel.app'
       },
       {
         property: 'og:type',
@@ -52,8 +52,28 @@ export class AppComponent {
         content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
       },
       {
-        name: 'twitter:image',
+        property: 'twitter:image',
         content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
+      },
+      {
+        property: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        property: 'twitter:image:alt',
+        content: ''
+      },
+      {
+        property: 'twitter:title',
+        content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
+      },
+      {
+        property: 'twitter:description',
+        content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
+      },
+      {
+        property: 'twitter:url',
+        content:'https://angular-share-social-media.vercel.app/'
       }
     ]);
   }

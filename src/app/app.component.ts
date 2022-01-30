@@ -33,7 +33,7 @@ export class AppComponent {
   // <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
       {
         property: 'og:url',
-        content: 'https://angular-share-social-media.vercel.app/'
+        content: 'http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html'
       },
       {
         property: 'og:type',

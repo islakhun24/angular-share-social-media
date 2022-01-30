@@ -16,7 +16,7 @@ export class AppComponent {
   faTwitterSquare = faTwitterSquare;
   faTiktok = faTiktok;
   faLine = faLine;
-  url = 'https://app-uat.doku.com/retail/merchant/jasmine-catering-gen1/Baju-bayi-10a51e523bf14655';
+  url = 'https://angular-share-social-media.vercel.app/';
 
 
   constructor(

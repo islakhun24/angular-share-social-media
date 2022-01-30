@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 import { faFacebookSquare, faTwitterSquare, faLine, faTiktok , faWhatsappSquare , faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -16,6 +17,45 @@ export class AppComponent {
   faTiktok = faTiktok;
   faLine = faLine;
   url = 'https://app-uat.doku.com/retail/merchant/jasmine-catering-gen1/Baju-bayi-10a51e523bf14655';
+
+
+  constructor(
+    private metaTagService: Meta
+  ){
+
+  }
+  ngOnInit(){
+    this.metaTagService.addTags([
+      {
+        name: 'description',
+        content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
+      },
+      {
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        property:'og:title',
+        content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
+      },
+      {
+        property: 'og:og:description',
+        content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
+      },
+      {
+        property: 'og:image',
+        content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
+      },
+      {
+        property: 'og:url',
+        content: 'https://angular-share-social-media.vercel.app/'
+      },
+      {
+        property: 'og:site_name',
+        content: 'Jokul Link Test'
+      }
+    ]);
+  }
   onClickFacebook(){
     window.open('https://www.facebook.com/sharer/sharer.php?u=' + this.url);
     return false

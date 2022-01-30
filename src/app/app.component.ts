@@ -16,7 +16,7 @@ export class AppComponent {
   faTwitterSquare = faTwitterSquare;
   faTiktok = faTiktok;
   faLine = faLine;
-  url = 'https://angular-share-social-media.vercel.app/';
+  url = 'https://angular-share-social-media.vercel.app';
 
 
   constructor(
@@ -43,7 +43,7 @@ export class AppComponent {
         content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
       },
       {
-        property: 'og:image:secure_url',
+        property: 'og:image',
         content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
       },
       {

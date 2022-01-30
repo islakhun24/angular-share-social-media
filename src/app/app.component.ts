@@ -60,7 +60,7 @@ export class AppComponent {
       },
       {
         property: 'og:url',
-        content: 'www.angular-share-social-media.vercel.app/'
+        content: 'www.angular-share-social-media.vercel.app'
       },
       {
         property: 'og:site_name',

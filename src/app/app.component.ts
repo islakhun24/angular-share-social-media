@@ -16,7 +16,7 @@ export class AppComponent {
   faTiktok = faTiktok;
   faLine = faLine;
   onClickFacebook(){
-    window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites/'));
+    window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites'));
     return false
   };
 
@@ -26,22 +26,22 @@ export class AppComponent {
   };
 
   onClickWhatsapp(){
-    window.open('whatsapp://send?text='+  encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites/'));
+    window.open('whatsapp://send?text='+  encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites'));
     return false;
   };
 
   onClickTwitter(){
-    window.open('http://twitter.com/share?text='+ encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites/'));
+    window.open('http://twitter.com/share?text='+ encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites'));
     return false
   }
 
   onClickTiktok(){
-    window.open('http://twitter.com/share?text='+ encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites/'));
+    window.open('http://twitter.com/share?text='+ encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites'));
     return false
   }
 
   onClickLine(){
-    window.open('https://social-plugins.line.me/lineit/share?url='+encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites/'));
+    window.open('https://social-plugins.line.me/lineit/share?url='+encodeURIComponent('https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites'));
     return false;
   }
 

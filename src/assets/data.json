@@ -1,0 +1,182 @@
+[
+  {
+    "id": 13771,
+    "title": "CACI ramping up production of optical terminals for low Earth orbit satellites",
+    "url": "https://spacenews.com/caci-ramping-up-production-of-optical-terminals-for-low-earth-orbit-satellites/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2022/01/Screen-Shot-2022-01-27-at-4.41.23-PM.png",
+    "newsSite": "SpaceNews",
+    "summary": "CACI will deliver 40 optical communications terminals for the Defense Advanced Research Projects Agency’s Blackjack satellites in low Earth orbit.",
+    "publishedAt": "2022-01-30T11:19:40.000Z",
+    "updatedAt": "2022-01-30T11:19:40.765Z",
+    "featured": false,
+    "launches": [
+
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13744,
+    "title": "Falcon 9 launch with Italian CSG-2 Earth observation satellite moved to Sunday",
+    "url": "https://www.nasaspaceflight.com/2022/01/falcon-9-csg-2/",
+    "imageUrl": "https://www.nasaspaceflight.com/wp-content/uploads/2022/01/NSF-2022-01-27-22-55-57-560.jpg",
+    "newsSite": "NASA Spaceflight",
+    "summary": "The Italian Space Agency’s CSG-2 mission, the second satellite in its COSMO-SkyMed Second Generation constellation, has endured two scrubs on Thursday and Friday, both caused by unacceptable weather – while Saturday’s weather impacted pre-launch preparations. The launch from Cape Canaveral Space Force Station will be the fourth Falcon 9 flight of the year, and is now scheduled for liftoff on Sunday at 6:11 PM EST (23:11 UTC) from Space Launch Complex 40 (SLC-40).",
+    "publishedAt": "2022-01-29T16:29:56.000Z",
+    "updatedAt": "2022-01-29T18:39:39.930Z",
+    "featured": false,
+    "launches": [
+      {
+        "id": "23229c2b-abb7-4b94-b624-981a9adc88d2",
+        "provider": "Launch Library 2"
+      }
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13770,
+    "title": "Regulators uncertain on schedule for first U.K. launch",
+    "url": "https://spacenews.com/regulators-uncertain-on-schedule-for-first-u-k-launch/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2018/07/virginorbit-cornwall.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "Plans to host the first orbital launches from the United Kingdom this year are moving ahead despite uncertainty about when regulators will grant licenses for those launches.",
+    "publishedAt": "2022-01-29T00:49:38.000Z",
+    "updatedAt": "2022-01-30T00:49:38.805Z",
+    "featured": false,
+    "launches": [
+
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13764,
+    "title": "NASA Awards Multiple Construction Contracts",
+    "url": "http://www.nasa.gov/press-release/nasa-awards-multiple-construction-contracts-0",
+    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb_0.jpg?itok=mrBnB_c9",
+    "newsSite": "NASA",
+    "summary": "NASA has awarded 12 construction contracts for work to be performed predominantly at the agency’s Wallops Flight Facility on Wallops Island, Virginia, and at Langley Research Center in Hampton, Virginia.",
+    "publishedAt": "2022-01-28T21:19:00.000Z",
+    "updatedAt": "2022-01-28T21:19:52.133Z",
+    "featured": false,
+    "launches": [
+
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13766,
+    "title": "Delays set up SpaceX for two launches in two days from Cape Canaveral",
+    "url": "https://spaceflightnow.com/2022/01/28/weather-delays-set-up-spacex-for-two-launches-from-cape-canaveral-this-weekend/",
+    "imageUrl": "https://spaceflightnow.com/wp-content/uploads/2022/01/f9csg2scrub2.jpg",
+    "newsSite": "Spaceflight Now",
+    "summary": "SpaceX has delayed the launch of a Falcon 9 rocket and an Italian radar satellite for three straight days, and is now aiming to send the mission aloft Sunday evening from Cape Canaveral. The next launch on SpaceX’s schedule, set to carry Starlink internet satellites into orbit, was delayed from Sunday until Monday.",
+    "publishedAt": "2022-01-28T19:29:34.000Z",
+    "updatedAt": "2022-01-29T19:29:34.558Z",
+    "featured": false,
+    "launches": [
+      {
+        "id": "23229c2b-abb7-4b94-b624-981a9adc88d2",
+        "provider": "Launch Library 2"
+      },
+      {
+        "id": "de39dd1a-0f72-4afd-a6b9-1b848b246071",
+        "provider": "Launch Library 2"
+      }
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13761,
+    "title": "NASA to continue buying Earth-observation datasets",
+    "url": "https://spacenews.com/nasa-continues-csda-program/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2022/01/rsz_1eruption_hunga_tonga_hunga_ha_apai_s117_20220107t015933z_rgb_80cm_5400px_geo-1-full.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "NASA intends to continue buying data gathered by commercial Earth-observation satellites.",
+    "publishedAt": "2022-01-28T17:09:37.000Z",
+    "updatedAt": "2022-01-28T17:09:38.007Z",
+    "featured": false,
+    "launches": [
+
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13759,
+    "title": "Another launch tower built for the SLS rocket has “encountered some challenges”",
+    "url": "https://arstechnica.com/science/2022/01/nasas-second-sls-launch-tower-is-also-late-and-over-budget/",
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2012/12/constellation-launch-tower.jpg",
+    "newsSite": "Arstechnica",
+    "summary": "NASA has issued a \"second letter of concern\" to Bechtel.",
+    "publishedAt": "2022-01-28T14:54:47.000Z",
+    "updatedAt": "2022-01-28T15:09:43.462Z",
+    "featured": false,
+    "launches": [
+
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13758,
+    "title": "China presents space plans and priorities in new white paper",
+    "url": "https://spacenews.com/china-presents-space-plans-and-priorities-in-new-white-paper/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2020/01/change5-farside-image-470x470.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "China has released a white paper outlining the centrality of space to the country’s “overall national strategy” as well as major plans for the years ahead.",
+    "publishedAt": "2022-01-28T13:59:39.000Z",
+    "updatedAt": "2022-01-28T13:59:39.110Z",
+    "featured": false,
+    "launches": [
+
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13756,
+    "title": "NASA safety panel watching human spaceflight reorganization",
+    "url": "https://spacenews.com/nasa-safety-panel-watching-human-spaceflight-reorganization/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2021/09/free-lueders.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "NASA’s safety advisers say they’re closely watching a planned reorganization of the agency’s human spaceflight directorate to ensure it doesn’t adversely affect safety.",
+    "publishedAt": "2022-01-28T12:49:39.000Z",
+    "updatedAt": "2022-01-28T12:49:39.482Z",
+    "featured": false,
+    "launches": [
+
+    ],
+    "events": [
+
+    ]
+  },
+  {
+    "id": 13755,
+    "title": "Rocket Report: NASA boosts commercial launch, another Chinese Falcon 9?",
+    "url": "https://arstechnica.com/science/2022/01/rocket-report-nasa-boosts-commercial-launch-another-chinese-falcon-9/",
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/01/FDqeLpCWUAcyqR9.jpg",
+    "newsSite": "Arstechnica",
+    "summary": "Also, we enjoy more renderings of Chinese rockets that look like a Falcon 9.",
+    "publishedAt": "2022-01-28T12:00:27.000Z",
+    "updatedAt": "2022-01-28T13:29:43.943Z",
+    "featured": false,
+    "launches": [
+
+    ],
+    "events": [
+
+    ]
+  }
+]

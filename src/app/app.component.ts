@@ -39,7 +39,7 @@ export class AppComponent {
         content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
       },
       {
-        property: 'og:og:description',
+        property: 'og:description',
         content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
       },
       {

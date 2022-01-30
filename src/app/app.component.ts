@@ -35,6 +35,10 @@ export class AppComponent {
         content: 'website'
       },
       {
+        property: 'og:image:type',
+        content: 'image/jpeg'
+      },
+      {
         property:'og:title',
         content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
       },
@@ -44,7 +48,7 @@ export class AppComponent {
       },
       {
         property: 'og:image',
-        content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
+        content: '//cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
       },
       {
         property: 'og:image:width',
@@ -55,8 +59,8 @@ export class AppComponent {
         content: '600'
       },
       {
-        property: 'og:url:secure_url',
-        content: 'https://angular-share-social-media.vercel.app/'
+        property: 'og:url',
+        content: 'www.angular-share-social-media.vercel.app/'
       },
       {
         property: 'og:site_name',

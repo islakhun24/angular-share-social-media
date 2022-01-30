@@ -41,11 +41,11 @@ export class AppComponent {
       },
       {
         property: 'og:title',
-        content: 'When Great Minds Don’t Think Alike'
+        content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
       },
       {
         property: 'og:description',
-        content: 'How much does culture influence creative thinking?'
+        content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
       },
       {
         property: 'og:image',

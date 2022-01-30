@@ -26,46 +26,31 @@ export class AppComponent {
   }
   ngOnInit(){
     this.metaTagService.addTags([
-      // {
-      //   name: 'description',
-      //   content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
-      // },
-      // {
-      //   property: 'og:type',
-      //   content: 'website'
-      // },
-      // {
-      //   property: 'og:image:type',
-      //   content: 'image/jpeg'
-      // },
-      // {
-      //   property:'og:title',
-      //   content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
-      // },
-      // {
-      //   property: 'og:description',
-      //   content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
-      // },
-      // {
-      //   property: 'og:image',
-      //   content: '//cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
-      // },
-      // {
-      //   property: 'og:image:width',
-      //   content: '600'
-      // },
-      // {
-      //   property: 'og:image:height',
-      //   content: '600'
-      // },
-      // {
-      //   property: 'og:url',
-      //   content: 'www.angular-share-social-media.vercel.app'
-      // },
-      // {
-      //   property: 'og:site_name',
-      //   content: 'Jokul Link Test'
-      // }
+  //     <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+  // <meta property="og:type"               content="article" />
+  // <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+  // <meta property="og:description"        content="How much does culture influence creative thinking?" />
+  // <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+      {
+        property: 'og:url',
+        content: 'http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html'
+      },
+      {
+        property: 'og:type',
+        content: 'article'
+      },
+      {
+        property: 'og:title',
+        content: 'When Great Minds Don’t Think Alike'
+      },
+      {
+        property: 'og:description',
+        content: 'How much does culture influence creative thinking?'
+      },
+      {
+        property: 'og:image',
+        content: 'http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg'
+      }
     ]);
   }
   onClickFacebook(){

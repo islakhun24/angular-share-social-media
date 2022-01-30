@@ -47,7 +47,15 @@ export class AppComponent {
         content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
       },
       {
-        property: 'og:url',
+        property: 'og:image:width',
+        content: '600'
+      },
+      {
+        property: 'og:image:height',
+        content: '600'
+      },
+      {
+        property: 'og:url:secure_url',
         content: 'https://angular-share-social-media.vercel.app/'
       },
       {

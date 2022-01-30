@@ -25,52 +25,52 @@ export class AppComponent {
 
   }
   ngOnInit(){
-    this.metaTagService.addTags([
-      {
-        property: 'og:url',
-        content: 'https://angular-share-social-media.vercel.app'
-      },
-      {
-        property: 'og:type',
-        content: 'article'
-      },
-      {
-        property: 'og:title',
-        content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
-      },
-      {
-        property: 'og:description',
-        content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
-      },
-      {
-        property: 'og:image',
-        content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
-      },
-      {
-        property: 'twitter:image',
-        content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
-      },
-      {
-        property: 'twitter:card',
-        content: 'summary_large_image'
-      },
-      {
-        property: 'twitter:image:alt',
-        content: ''
-      },
-      {
-        property: 'twitter:title',
-        content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
-      },
-      {
-        property: 'twitter:description',
-        content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
-      },
-      {
-        property: 'twitter:url',
-        content:'https://angular-share-social-media.vercel.app/'
-      }
-    ]);
+    // this.metaTagService.addTags([
+    //   {
+    //     property: 'og:url',
+    //     content: 'https://angular-share-social-media.vercel.app'
+    //   },
+    //   {
+    //     property: 'og:type',
+    //     content: 'article'
+    //   },
+    //   {
+    //     property: 'og:title',
+    //     content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
+    //   },
+    //   {
+    //     property: 'og:description',
+    //     content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
+    //   },
+    //   {
+    //     property: 'og:image',
+    //     content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
+    //   },
+    //   {
+    //     property: 'twitter:image',
+    //     content: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0682-1634101387360/2022/01/26/7b15706a-6e50-41a2-8d0b-d38cffb9400d.png?Expires=1643563725&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=%2BbvOA0PDAjoObzPcvqaoTWohcz4%3D'
+    //   },
+    //   {
+    //     property: 'twitter:card',
+    //     content: 'summary_large_image'
+    //   },
+    //   {
+    //     property: 'twitter:image:alt',
+    //     content: ''
+    //   },
+    //   {
+    //     property: 'twitter:title',
+    //     content: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing'
+    //   },
+    //   {
+    //     property: 'twitter:description',
+    //     content: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'
+    //   },
+    //   {
+    //     property: 'twitter:url',
+    //     content:'https://angular-share-social-media.vercel.app/'
+    //   }
+    // ]);
   }
   onClickFacebook(){
     window.open('https://www.facebook.com/sharer/sharer.php?u=' + this.url);

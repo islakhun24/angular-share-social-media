@@ -48,18 +48,26 @@ export class MetadataService {
     return [
       { name: 'title', content: metadata.title },
       { property: 'og:title', content: metadata.title },
+      { property: 'og:twitter', content: metadata.title },
 
       { name: 'description', content: metadata.description },
       { property: 'og:description', content: metadata.description },
+      { property: 'twitter:description', content: metadata.description },
 
       { name: 'author', content: metadata.author },
       { property: 'og:author', content: metadata.author },
 
       { name: 'keywords', content: metadata.keywords.join(', ') },
 
-      { property: 'og:type', content: metadata.type },
+      { name: 'twitter:domain', content: metadata.url },
+      { property: 'og:url', content: metadata.url },
+      { name: 'twitter:url', content: metadata.url },
 
-      { property: 'og:image', content: `${metadata.imageRelativeUrl}`}
+      { property: 'og:type', content: metadata.type },
+      { property: 'twitter:card', content:'summary_large_image' },
+
+      { property: 'og:image', content: metadata.imageRelativeUrl},
+      { property: 'twitter:image', content: metadata.imageRelativeUrl }
     ]
   }
 }

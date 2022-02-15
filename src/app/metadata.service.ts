@@ -20,7 +20,7 @@ const defaultMetadata: PageMetadata = {
   author: 'Daniil Baunov',
   keywords: ['Angular', 'meta tags', 'Angular Universal'],
   type: 'website',
-  url: 'https://app-uat.doku.com'
+  url: 'https://angular-share-social-media.vercel.app/'
 }
 
 @Injectable()

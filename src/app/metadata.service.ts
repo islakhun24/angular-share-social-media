@@ -35,7 +35,6 @@ export class MetadataService {
 
     this.metaTagService.addTags([
      ...metatags,
-     { property: 'og:url', content: `https://app-uat.doku.com/`},
      { name: 'robots', content: index ? 'index, follow' : 'noindex' },
      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
      { 'http-equiv': 'Content-Type', content: 'text/html; charset=utf-8' },

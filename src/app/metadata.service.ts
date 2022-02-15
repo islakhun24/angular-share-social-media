@@ -47,7 +47,7 @@ export class MetadataService {
     return [
       { name: 'title', content: metadata.title },
       { property: 'og:title', content: metadata.title },
-      { property: 'og:twitter', content: metadata.title },
+      { property: 'twitter:title', content: metadata.title },
 
       { name: 'description', content: metadata.description },
       { property: 'og:description', content: metadata.description },

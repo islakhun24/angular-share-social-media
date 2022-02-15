@@ -74,7 +74,7 @@ export class AppComponent {
     // ]);
     if (this.metadataService) {
       this.metadataService.updateMetadata({
-          title: 'PJCSI SS(Persatuan Jasmine Cantik Seluruh Indonesia) testing',
+          title: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing',
           imageRelativeUrl: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0003-1099057059398/2022/01/24/2d8b2c7d-a7f8-43c1-8ba3-c1539c9c71a2.png?Expires=1644947512&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=KAjWst3mLIUdarjn35hC89H6UYo%3D',
           description: 'Snackssss Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan',
           keywords: ['Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'],

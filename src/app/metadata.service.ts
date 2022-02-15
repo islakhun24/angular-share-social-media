@@ -62,7 +62,7 @@ export class MetadataService {
       { property: 'og:url', content: metadata.url },
       { name: 'twitter:url', content: metadata.url },
 
-      { property: 'og:type', content: metadata.type },
+      { property: 'og:type', content: 'website' },
       { property: 'twitter:card', content:'summary_large_image' },
 
       { property: 'og:image', content: metadata.imageRelativeUrl},

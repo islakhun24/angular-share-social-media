@@ -4,8 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
-
+import { MetadataService } from './metadata.service';
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +14,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppRoutingModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [MetadataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

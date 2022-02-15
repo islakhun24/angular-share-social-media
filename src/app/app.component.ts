@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { faFacebookSquare, faTwitterSquare, faLine, faTiktok , faWhatsappSquare , faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+import { MetadataService } from './metadata.service';
 
 
 @Component({
@@ -20,7 +21,7 @@ export class AppComponent {
 
 
   constructor(
-    private metaTagService: Meta
+    private metadataService: MetadataService
   ){
 
   }
@@ -71,6 +72,16 @@ export class AppComponent {
     //     content:'https://angular-share-social-media.vercel.app/'
     //   }
     // ]);
+    if (this.metadataService) {
+      this.metadataService.updateMetadata({
+          title: 'PJCSI (Persatuan Jasmine Cantik Seluruh Indonesia) testing',
+          imageRelativeUrl: 'http://cdn-dev.oss-ap-southeast-5.aliyuncs.com/rvn-retail-api/MCH-0003-1099057059398/2022/01/24/2d8b2c7d-a7f8-43c1-8ba3-c1539c9c71a2.png?Expires=1644947512&OSSAccessKeyId=LTAI5tEQGPKPFCTSeiM2NoXf&Signature=KAjWst3mLIUdarjn35hC89H6UYo%3D',
+          description: 'Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan',
+          keywords: ['Snack Catering berisi lontong, kue pie, kue pisang, kue soes, pie susu, risoles, panada. Request dijual terpisah ya. bisa beli satuan'],
+          type: 'PJCSI',
+          url: 'https://angular-share-social-media.vercel.app'
+      });
+    }
   }
   onClickFacebook(){
     window.open('https://www.facebook.com/sharer/sharer.php?u=' + this.url);
